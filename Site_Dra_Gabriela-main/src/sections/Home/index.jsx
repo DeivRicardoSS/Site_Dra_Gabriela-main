@@ -11,7 +11,7 @@ export function Home() {
             <div>
                 <h2>Dermatologia clínica, estética e capilar com abordagem personalizada.</h2>
                 <span>Sua pele e cabelos tratados com excelência dermatológica</span>
-                <Button style={{ marginTop: "5rem", width: "400px",fontSize: "25px", height: "70px", fontWeight: "semi-bold" }} link="#">Agende sua Consulta</Button>
+                <Button style={{ marginTop: "4rem", width: "400px",fontSize: "25px", height: "70px", fontWeight: "semi-bold" }} link="#">Agende sua Consulta</Button>
             </div>
             
             
