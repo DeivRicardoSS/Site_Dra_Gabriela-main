@@ -9,9 +9,9 @@ export function Footer() {
             <div className={styles.content1}>
                 <div>
                     <strong>Endereço</strong>
-                    <span>
+                    <a href="https://www.google.com/maps/place/Skin+Prime/@-8.0868644,-34.8920545,17z/data=!3m1!4b1!4m6!3m5!1s0x7ab19a4c52b0ab5:0xddfe15f4a60d137a!8m2!3d-8.0868644!4d-34.8920545!16s%2Fg%2F11qp9qmt0q?entry=ttu&g_ep=EgoyMDI1MDMxOS4xIKXMDSoJLDEwMjExNDU1SAFQAw%3D%3D">
                         Torre C, Riomar Trade Center - Av. República do Líbano, número 251 - sala 1905 - Pina, Recife - PE, 50110-160
-                    </span>
+                    </a>
                 </div>
 
                 <div>
@@ -42,9 +42,9 @@ export function Footer() {
 
                 <div>
                     <strong>Responsável Técnico</strong>
-                    <a href="https://www.google.com/maps/place/Skin+Prime/@-8.0868644,-34.8920545,17z/data=!3m1!4b1!4m6!3m5!1s0x7ab19a4c52b0ab5:0xddfe15f4a60d137a!8m2!3d-8.0868644!4d-34.8920545!16s%2Fg%2F11qp9qmt0q?entry=ttu&g_ep=EgoyMDI1MDMxOS4xIKXMDSoJLDEwMjExNDU1SAFQAw%3D%3D">
+                    <span>
                         Dra. Gabriela Figueiroa Melo <br/>CRM: 24049-PE
-                    </a>
+                    </span>
                 </div>
             </div>
             
