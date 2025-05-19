@@ -13,6 +13,7 @@ export function Services() {
     return (
         <section className={styles.container}
             style={{backgroundImage: `url(${bkgServices})`}}
+            id="services"
         >
             <CardService
                 title="Dermatologia Clínica"

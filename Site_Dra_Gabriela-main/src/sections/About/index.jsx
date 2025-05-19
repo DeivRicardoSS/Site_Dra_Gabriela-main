@@ -3,7 +3,7 @@ import aboutImg from "../../assets/aboutImg.jpg";
 import aspas from "../../assets/aspas.svg";
 export function About() {
     return (
-        <section className={styles.container}>
+        <section className={styles.container} id="about">
             <img src={aboutImg} className={styles.img} alt="Dra Gabriela" />
 
             <div className={styles.content}>

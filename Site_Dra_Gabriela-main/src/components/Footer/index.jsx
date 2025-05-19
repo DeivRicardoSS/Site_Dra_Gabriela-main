@@ -1,6 +1,6 @@
 import logo from "../../assets/logo.png";
 import styles from "./styles.module.css";
-import { InstagramLogo, FacebookLogo, LinkedinLogo } from "phosphor-react";
+import { InstagramLogo, FacebookLogo, LinkedinLogo, CaretCircleUp } from "phosphor-react";
 export function Footer() {
     return (
         <footer className={styles.container}>
@@ -16,15 +16,15 @@ export function Footer() {
 
                 <div>
                     <strong>Redes Sociais</strong>
-                    <span>
-                        <a href="#">
-                            <InstagramLogo size={32} weight="fill" />
+                    <span className={styles.redes}>
+                        <a href="https://www.instagram.com/gabrielafigueiroadermatorecife/">
+                            <InstagramLogo size={48} weight="fill" />
                         </a>
-                        <a href="#">
-                            <FacebookLogo size={32} weight="fill" />
+                        <a href="https://www.facebook.com/people/Dra-Gabriela-Figueir%C3%B4a/100069716415027/">
+                            <FacebookLogo size={49} weight="fill" />
                         </a>
-                        <a href="#">
-                            <LinkedinLogo size={32} weight="fill" />
+                        <a href="https://www.linkedin.com/in/gabriela-figueiroa-0b00b825b/">
+                            <LinkedinLogo size={48} weight="fill" />
                         </a>
                     </span>
                 </div>
@@ -42,9 +42,9 @@ export function Footer() {
 
                 <div>
                     <strong>Responsável Técnico</strong>
-                    <span>
-                        Dra. Gabriela Figueiroa Melo CRM: 24049-PE
-                    </span>
+                    <a href="https://www.google.com/maps/place/Skin+Prime/@-8.0868644,-34.8920545,17z/data=!3m1!4b1!4m6!3m5!1s0x7ab19a4c52b0ab5:0xddfe15f4a60d137a!8m2!3d-8.0868644!4d-34.8920545!16s%2Fg%2F11qp9qmt0q?entry=ttu&g_ep=EgoyMDI1MDMxOS4xIKXMDSoJLDEwMjExNDU1SAFQAw%3D%3D">
+                        Dra. Gabriela Figueiroa Melo <br/>CRM: 24049-PE
+                    </a>
                 </div>
             </div>
             
@@ -62,6 +62,10 @@ export function Footer() {
                     <a href="gabriela_figueiroa@hotmail.com" target="_blank">gabriela_figueiroa@hotmail.com</a>
                 </div>
             </div>
+
+            <a href="#home" className={styles.backtohome}>
+                <CaretCircleUp size={80}/>
+            </a>
         </footer>
     );
 }

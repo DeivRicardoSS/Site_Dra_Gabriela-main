@@ -8,7 +8,7 @@ export function Quote() {
         <section className={styles.container}>
             <div className={styles.images}>
                 <img src={quote1} alt="imagem 2" />
-                <img src={quote2} alt="imagem 1" />
+                <img src={quote2} alt="imagem 1" className={styles.destaque}/>
                 <img src={quote3} alt="imagem 3" />
             </div>
 

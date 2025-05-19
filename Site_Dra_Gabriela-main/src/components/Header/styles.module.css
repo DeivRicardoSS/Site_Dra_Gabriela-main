@@ -8,6 +8,7 @@
     width: 100vw;
     background-color: white;
     border-bottom: 1px solid #000000;
+    z-index: 1;
     
 
     img {
@@ -24,6 +25,11 @@
             font-size: 19px;
             font-weight: 500;
             color: #000000;
+        }
+
+        a:hover {
+            transition: 0.3s ease;
+            transform: scale(1.04);
         }
     }
 
