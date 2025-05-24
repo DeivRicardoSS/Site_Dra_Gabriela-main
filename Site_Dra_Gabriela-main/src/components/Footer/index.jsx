@@ -32,7 +32,7 @@ export function Footer() {
 
             <div className={styles.content2}>
                 <div>
-                    <strong>Horário de Functionamento</strong>
+                    <strong>Horário de Funcionamento</strong>
                     <span>
                         Segunda a Sexta – 09h às 21h
                         Sábado – 08:00 às 12:00
