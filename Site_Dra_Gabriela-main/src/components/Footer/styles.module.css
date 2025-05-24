@@ -1,0 +1,70 @@
+.container {
+  min-height: 40vh;
+  padding: 4rem 2rem;
+  gap: 4rem;
+  background-color: #e8e8e8;
+  position: relative;
+
+  display: flex;
+  align-items: start;
+
+  img {
+    width: 20rem;
+  }
+
+  .content1,
+  .content2,
+  .content3 {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+
+    gap: 2.5rem;
+
+    .redes {
+        display: flex;
+        gap: 0.3rem;
+    }
+
+    .redes a:hover {
+      color: #8c720c;
+      transition: 0.5s;
+    }
+
+    div {
+      display: flex;
+      flex-direction: column;
+      gap: 0.8rem;
+
+      strong {
+        font-weight: 400;
+        color: #585757;
+        text-decoration: underline;
+        font-size: 18px;
+      }
+      span {
+        font-weight: 400;
+        color: #585757;
+        font-size: 18px;
+      }
+
+      a {
+        text-decoration: none;
+        color: #585757;
+        font-size: 18px;
+      }
+    }
+  }
+
+  .backtohome {
+    position: absolute;
+    right: 1rem;
+    top: -14rem;
+
+
+    border: none;
+    background-color: transparent;
+
+    color: white;
+  }
+}
