@@ -4,7 +4,7 @@ import { InstagramLogo, FacebookLogo, LinkedinLogo, CaretCircleUp } from "phosph
 export function Footer() {
     return (
         <footer className={styles.container}>
-            <img src={logo} alt="logo" />
+            
 
             <div className={styles.content1}>
                 <div>
