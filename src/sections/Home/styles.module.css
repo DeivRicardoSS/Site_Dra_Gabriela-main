@@ -40,3 +40,45 @@
         transform: translateY(4rem);
     }
 }
+
+@media screen and (max-width: 999px) {
+    .container {
+        img {
+            display: none;
+        }
+
+        div {
+            width: 100%;
+        }
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .container {
+        h2 {
+            font-size: 1.5rem;
+            font-weight: 650;
+        }
+
+        span {
+            font-size: 1.2rem;
+            font-weight: 600;
+        }
+
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .container {
+        h2 {
+            font-size: 1rem;
+            font-weight: 650;
+        }
+
+        span {
+            font-size: 0.8rem;
+            font-weight: 600;
+        }
+
+    }
+}

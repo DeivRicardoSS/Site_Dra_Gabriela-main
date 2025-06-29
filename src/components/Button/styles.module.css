@@ -6,12 +6,17 @@
     color: white;
     border-radius: 12px;
     box-shadow: 1px 3px 6px #00000054;
-    margin-right: 50px;
 
 
     display: flex;
     justify-content: center;
-    width: fit-content
+
+    width: 400px;
+    font-size: 25px;
+    font-weight: "semi-bold";
+    height: 70px;
+    display: flex;
+    align-items: center;
 }
 
 .container:hover {
@@ -19,4 +24,19 @@
     transform: scale(1.05);
     background-color: #8C720C;
     border: 1px solid white;
+}
+
+@media screen and (max-width: 999px) {
+    .container {
+        padding: 1rem;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .container {
+        padding: 0.5rem;
+        width: 300px;
+        font-size: 18px;
+        height: 60px;
+    }
 }

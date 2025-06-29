@@ -24,17 +24,17 @@ function App() {
     <>
       <Header/>
       <Home/>
-      <Photos
+      {/* <Photos
         photos = {[photo1, photo2, photo3]}
-      />
+      /> */}
       <About/>
-      <Services/>
+      {/* <Services/>
       <Quote/>
       <Photos
         photos = {[photo4, photo5, photo6, photo7, photo8, photo9]}
         id={"images"}
       />
-      <Footer/>
+      <Footer/> */}
     </>
   )
 }
