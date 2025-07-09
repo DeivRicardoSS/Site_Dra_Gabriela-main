@@ -13,4 +13,56 @@
     background-attachment: fixed;
 
     scroll-margin-top: 7rem;
+
+    .content {
+        max-width: 50rem;
+        min-width: 10rem;
+        width: 50rem;
+        background-color: #ecececd0;
+        backdrop-filter: blur(2px);
+        border-radius: 10px;
+        overflow: hidden;
+        border-radius: 1px solid black;
+        box-shadow: 0px 4px 4px #00000057;
+        margin: 1rem;
+        details {
+            summary {
+                display: flex;
+                align-items: center;
+                gap: 1rem;
+                cursor: pointer;
+                justify-content: space-between;
+                padding: 1rem;
+                
+                h3 {
+                    flex: 1;
+                }
+
+            }
+            ul {
+                max-height: 0;
+                overflow: hidden;
+                transition: max-height 0.3s ease;
+                list-style: none;
+
+                li {
+                    padding: 1rem;
+                }
+
+                li:nth-child(odd) {
+                    background-color: #f0f0f0; /* cinza claro */
+                }
+
+                li:nth-child(even) {
+                    background-color: #d9d9d9; /* cinza escuro */
+                }
+            }
+        }
+        details[open] ul {
+            max-height: 100rem;
+        }
+        details:not(:last-child) {
+            border-bottom: 1px solid black;
+        }
+    }
 }

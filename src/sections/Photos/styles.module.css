@@ -13,3 +13,23 @@
         border: 2.1px solid black;
     }
 }
+
+@media screen and (max-width: 800px) {
+    .container {
+        flex-wrap: nowrap;
+        width: 100%;
+        overflow-x: auto;
+        img {
+            width: 100%;
+        }
+    }
+}
+
+@keyframes swipe {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-33.33%);
+    }
+}

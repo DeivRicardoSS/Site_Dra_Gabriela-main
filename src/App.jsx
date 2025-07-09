@@ -6,6 +6,8 @@ import { About } from './sections/About'
 import { Services } from './sections/Services'
 import { Quote } from './sections/Quote'
 import { Footer } from './components/Footer'
+import { WhatsappButton } from './components/WhatsappButton'
+import { Ebook } from './sections/Ebook'
 
 import photo1 from "./assets/photo1.jpg";
 import photo2 from "./assets/photo2.jpg";
@@ -24,17 +26,20 @@ function App() {
     <>
       <Header/>
       <Home/>
-      {/* <Photos
+      <Photos
         photos = {[photo1, photo2, photo3]}
-      /> */}
+      />
       <About/>
-      {/* <Services/>
+      <Services/>
       <Quote/>
+      <Ebook/>
       <Photos
         photos = {[photo4, photo5, photo6, photo7, photo8, photo9]}
         id={"images"}
       />
-      <Footer/> */}
+      
+      <WhatsappButton/>
+      <Footer/>
     </>
   )
 }

@@ -15,7 +15,7 @@ export function Quote() {
             <div className={styles.content}>
                 <img src={aspas}/>
                 <p>
-                    Cada pele é única, e meu compromisso é proporcionar um atendimento individualizado, com atenção aos detalhes e foco na sua saúde, beleza e bem-estar. Desenvolvo tratamentos dermatológicos — clínicos e estéticos — com responsabilidade, conhecimento e um cuidado genuíno voltado às suas necessidades."
+                    “Cada pele é única, e meu compromisso é proporcionar um atendimento individualizado, com atenção aos detalhes e foco na sua saúde, beleza e bem-estar. Desenvolvo tratamentos dermatológicos — clínicos e estéticos — com responsabilidade, conhecimento e um cuidado genuíno voltado às suas necessidades."
                 </p>
             </div>
         </section>

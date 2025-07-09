@@ -1,0 +1,56 @@
+.container {
+    width: 100%;
+    height: 55vh;
+    position: relative;
+    background-size: cover;
+    background-position: center -3rem;
+
+    .content {
+        width: 100%;
+        height: 100%;
+        background-color: #0000002f;
+    }
+    
+    a {
+        background-color: #131E62;
+        display: flex;
+        width: 5rem;
+        height: 5rem;
+        align-items: center;
+        justify-content: center;
+        border-radius: 50%;
+        box-shadow: 0px 4px 4px #00000057;
+
+        position: absolute;
+        bottom: 1rem;
+        right: 1rem;
+
+        img {
+            transform: scale(0.8);
+        }
+    }
+
+    .balao {
+        position: absolute;
+        bottom: 5.5rem;
+        right: 3rem;
+    }
+}
+
+@media screen and (min-width: 834px) {
+    .container {
+        height: 100vh;
+        background-position: center -15rem;
+
+        a {
+            bottom: 4rem;
+            right: 4rem;
+        }
+
+        .balao {
+            bottom: 10.5rem;
+            right: 8rem;
+            transform: scale(1.5);
+        }
+    }
+}

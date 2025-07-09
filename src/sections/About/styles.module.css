@@ -90,10 +90,15 @@
 
 @media screen and (max-width: 1070px) {
     .container {
+        flex-direction: column;
+        height: fit-content;
+        padding: 2rem 0;
         .img {
-            display: none;
-            /* width: 175px;
-            height: 250px; */
+            display: block;
+            width: 80%;
+            height: 20rem;
+            object-fit: cover;
+            object-position: 0 -1.5rem;
         }
 
         .content {
@@ -110,6 +115,7 @@
 
 @media screen and (max-width: 620px) {
     .container .content {
+        gap: 0rem;
         div {
             flex-direction: column;
 
@@ -125,10 +131,11 @@
         
         .text {
             img {
-                display: none;
+                transform: scale(0.6) translateY(2rem) translateX(1rem);
             }
             p {
                 font-size: 16px;
+                padding: 0 1rem;
             }
         }
     }
